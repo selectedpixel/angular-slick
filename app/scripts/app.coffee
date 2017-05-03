@@ -33,6 +33,7 @@ angular.module('slick', [])
       onReInit: "&"
       onSetPosition: "&"
       pauseOnHover: "@"
+      pauseOnFocus: "@"
       pauseOnDotsHover: "@"
       responsive: "="
       rtl: "@"
@@ -92,6 +93,7 @@ angular.module('slick', [])
             onReInit: if attrs.onReInit then scope.onReInit else undefined
             onSetPosition: if attrs.onSetPosition then scope.onSetPosition else undefined
             pauseOnHover: scope.pauseOnHover isnt "false"
+            pauseOnFocus: scope.pauseOnFocus isnt "false"
             responsive: scope.responsive or undefined
             rtl: scope.rtl is "true"
             slide: scope.slide or "div"
