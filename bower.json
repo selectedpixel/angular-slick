@@ -20,7 +20,7 @@
   ],
   "dependencies": {
     "angular": "~1.3.0",
-    "slick-carousel": "~1.4.1"
+    "slick-carousel": "https://github.com/selectedpixel/slick.git"
   },
   "author": {
     "name": "Vasyl Stanislavchuk"
